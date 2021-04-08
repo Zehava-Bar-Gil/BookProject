@@ -31,7 +31,7 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
   
     return (
       <form onSubmit={handleSubmit}>
-        <input
+        <input id='bookInput'
           type="text"
           className="input"
           value={value}
@@ -43,9 +43,7 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
   
   function WishList() {
     const [todos, setTodos] = React.useState([
-       {
-         text: "Book List:"
-       },
+    
       { 
         text: "Inspire Science",
         isCompleted: false
@@ -80,6 +78,7 @@ function Todo({ todo, index, completeTodo, removeTodo }) {
     return (
       <div className="wishList">
         <div className="todo-list">
+            <h4>Book List:</h4>
           {todos.map((todo, index) => (
             <Todo
               key={index}

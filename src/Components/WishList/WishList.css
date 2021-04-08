@@ -26,4 +26,12 @@
     padding: 3px 10px;
   }
 
+  h4{
+    font-family: 'RocknRoll One', sans-serif; 
+  }
+
+ #bookInput {
+     width: 10vw;
+     height: 10vh;   
+ }
 
