@@ -12,10 +12,11 @@
     object-fit: contain;
 }
 
-.home-container > h2 {
+.home-title1 {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
+    /* font-family: 'KG HAPPY', serif; */
 
 }
 
@@ -35,14 +36,14 @@
   }
   
   @media screen and (max-width: 960px) {
-    .home-container > h1 {
+    .home-container > h2 {
       font-size: 70px;
       margin-top: -150px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .home-container > h1 {
+    .home-container > h2 {
       font-size: 50px;
       margin-top: -100px;
     }

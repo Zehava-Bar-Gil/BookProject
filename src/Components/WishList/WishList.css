@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.wishList {
+    background-image: url('https://images.unsplash.com/photo-1513001900722-370f803f498d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    width:100vw;
+    height: 90vh;
+  }
+
+ 
+.todo {
+    font-family: 'RocknRoll One', sans-serif;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 3px 10px;
+  }
+
+

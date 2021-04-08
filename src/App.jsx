@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
-import Search from './Components/Search/Search';
 import Home from './Components/Home/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Search from './Components/Search/Search';
+import WishList from './Components/WishList/WishList';
 import './Components/Style/Style.css';
 
 
@@ -14,10 +15,14 @@ export default function App() {
          <Switch>
            <Route path='/' exact component=
            {Home}/>
+           <Route path='/search' 
+           component=
+           {Search} />
+          <Route path='/wishList' component=
+           {WishList} />
          </Switch>
-         </Router>
-       <Search/>
-        </div>
+         </Router>     
+    </div>
   )
 }
 

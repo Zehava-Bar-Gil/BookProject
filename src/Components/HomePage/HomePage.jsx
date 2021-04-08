@@ -10,7 +10,7 @@ function HomePage() {
             <video src=
             "week--project\public\music\song.mp3"
             autoPlay loop muted />
-            <h2>BOOK LIBRARY</h2>
+            <h2 className='home-title1'>BOOK LIBRARY</h2>
             <p>Knowlege is power -Keep reading...</p>
             <div className='home-btns'>
             <Button
